@@ -1,0 +1,64 @@
+body{
+	background: #d9edf7;
+}
+#img-home{
+background: url(home.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+   min-height:500px;
+}
+#home-sec {
+width: 100%;
+display: block;
+height: auto;
+ padding-top:190px;
+    color:#fff;
+}
+#author{
+	margin-top: 50px;
+}
+#title,
+#content,#book, #about{
+	padding-top: 50px;
+}
+#author{
+	padding: 10px;
+	background: #000;
+	height: auto;
+	min-height: 60px;	
+	text-decoration: none;
+	font-size: 25px;
+	font-style: bold;
+	color: #fff;
+}
+#author >a{
+	color: #fff;	
+}
+.text-center{
+	text-align: center;
+}
+#title{
+}
+#ngu-phap{
+	padding-top: 40px;
+    text-transform:uppercase;
+    font-size: 60px;
+}
+#toiec{
+text-transform:uppercase;
+    font-size: 180px;
+}
+.text-normal{
+	font-size: 28px;
+	font-weight: 700;
+}
+#text-body-2{
+	font-style: bold;
+	font-size: 200px;
+	text-transform: uppercase;
+}
+#book{
+}
